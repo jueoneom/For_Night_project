@@ -60,17 +60,49 @@
 		89F301BC24BB15070033D724 /* for_night */ = {
 			isa = PBXGroup;
 			children = (
-				89F301BD24BB15070033D724 /* AppDelegate.swift */,
+				89F301D824BB1E3D0033D724 /* Sound */,
+				89F301D724BB1E260033D724 /* Controllers */,
+				89F301D624BB1E090033D724 /* Scenes */,
+				89F301D524BB1A070033D724 /* Delegate */,
 				89F301BF24BB15070033D724 /* GameScene.sks */,
 				89F301C124BB15070033D724 /* Actions.sks */,
-				89F301C324BB15070033D724 /* GameScene.swift */,
-				89F301C524BB15070033D724 /* GameViewController.swift */,
 				89F301C724BB15070033D724 /* Main.storyboard */,
 				89F301CA24BB15080033D724 /* Assets.xcassets */,
 				89F301CC24BB15080033D724 /* LaunchScreen.storyboard */,
 				89F301CF24BB15080033D724 /* Info.plist */,
 			);
 			path = for_night;
+			sourceTree = "<group>";
+		};
+		89F301D524BB1A070033D724 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				89F301BD24BB15070033D724 /* AppDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		89F301D624BB1E090033D724 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				89F301C324BB15070033D724 /* GameScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		89F301D724BB1E260033D724 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				89F301C524BB15070033D724 /* GameViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		89F301D824BB1E3D0033D724 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,7 +334,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "je.for-night";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -320,7 +352,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "je.for-night";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
